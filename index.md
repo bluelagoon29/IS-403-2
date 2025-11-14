@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Get Started - ESP32
+layout: default
+title: Home
 ---
 # Get Started
 
