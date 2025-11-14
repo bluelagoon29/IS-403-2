@@ -50,8 +50,8 @@ To install all the required software, we offer some different ways to facilitate
 
 For the manual procedure, please select according to your operating system.
 
-* [Windows Installer](/get-started/windows-setup)
-* [Linux and macOS](/get-started/linux-macos-setup)
+* [Windows Installer]({{ '/get-started/windows-setup' | relative_url }})
+* [Linux and macOS]({{ '/get-started/linux-macos-setup' | relative_url }})
 
 ---
 
