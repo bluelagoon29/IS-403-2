@@ -1,7 +1,27 @@
-title: My Project Documentation
-email: your-email@example.com
-description: A comprehensive guide for my awesome project.
-# Use a theme supported by GitHub Pages
-markdown: kramdown
-theme: jekyll-theme-cayman
-baseurl: "/IS-403-2/"
+# ----------------------------------------------------
+# 1. SET THEME
+# ----------------------------------------------------
+remote_theme: just-the-docs/just-the-docs
+
+# ----------------------------------------------------
+# 2. SITE SETTINGS (Customize these)
+# ----------------------------------------------------
+title: IS-403-2 Documentation
+description: Your project description here.
+baseurl: /IS-403-2 # Change if your repo name is different, or remove if using a User/Org site (username.github.io)
+url: https://<username>.github.io # Replace with your actual URL
+
+# ----------------------------------------------------
+# 3. JUST THE DOCS CONFIGURATION (Optional, but recommended)
+# ----------------------------------------------------
+# Enable or disable the site search
+search_enabled: true
+
+# Navigation sidebar settings
+aux_links:
+  "Just the Docs on GitHub": "https://github.com/just-the-docs/just-the-docs" # Example link
+
+# Edit on GitHub feature
+gh_edit_repository: "https://github.com/<username>/IS-403-2" # Replace with your full repo path
+gh_edit_branch: "main" # The branch you work on
+gh_edit_view_mode: "edit" # Can be "edit" or "tree"
