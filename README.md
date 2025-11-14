@@ -1,3 +1,9 @@
+---
+layout: default
+title: Installation Guide
+nav_order: 1
+---
+
 ## Installation Guide
 
 To install the software, you must first have **Python 3.8+** installed.
