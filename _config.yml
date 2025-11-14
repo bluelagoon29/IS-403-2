@@ -9,7 +9,7 @@ remote_theme: just-the-docs/just-the-docs
 title: IS-403-2 Documentation
 description: Your project description here.
 baseurl: /IS-403-2 # Change if your repo name is different, or remove if using a User/Org site (username.github.io)
-url: https://<username>.github.io # Replace with your actual URL
+url: https://bluelagoon29.github.io # Replace with your actual URL
 
 # ----------------------------------------------------
 # 3. JUST THE DOCS CONFIGURATION (Optional, but recommended)
