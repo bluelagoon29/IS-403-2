@@ -4,4 +4,4 @@ description: A comprehensive guide for my awesome project.
 # Use a theme supported by GitHub Pages
 markdown: kramdown
 theme: jekyll-theme-cayman
-baseurl: "https://bluelagoon29.github.io/IS-403-2/"
+baseurl: "/IS-403-2/"
