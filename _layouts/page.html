@@ -2,57 +2,17 @@
 layout: default
 ---
 <div class="wy-grid-for-nav">
-  <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-    <div class="wy-side-scroll">
-      <div class="wy-side-nav-search">
-        <a href="/" class="icon icon-home">
-          TEst TEst
-          <img src="" class="logo" alt="Logo"/>
-        </a>
-        <div role="search">
-          <form id="rtd-search-form" class="wy-form" action="/search.html" method="get">
-            <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
-          </form>
-        </div>
-      </div>
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-        {% include sidebar_nav.html %}
-      </div>
-    </div>
-  </nav>
-
   <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-    <nav class="wy-nav-top" aria-label="Mobile navigation menu">
-      <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-      <a href="/">Test TEst</a>
-    </nav>
-
     <div class="wy-nav-content">
       <div class="rst-content">
-        <div role="navigation" aria-label="Page navigation">
-          <ul class="wy-breadcrumbs">
-            <li><a href="/" class="icon icon-home" aria-label="Home"></a></li>
-            <li class="breadcrumb-item active">{{ page.title }}</li>
-            <li class="wy-breadcrumbs-aside">
-              <a href="https://github.com/{{ site.repository }}/blob/master/{{ page.path }}" class="fa fa-github"> Edit on GitHub</a>
-            </li>
-          </ul>
-          <hr/>
-        </div>
-        
+         
         <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
           <div itemprop="articleBody">
             {{ content }}
           </div>
         </div>
-        
-        <footer>
-          <hr/>
-          <div role="contentinfo">
-            <p>&copy; Copyright 2025.</p>
-          </div>
-        </footer>
-      </div>
+         
+        </div>
     </div>
   </section>
 </div>
